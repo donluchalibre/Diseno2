@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .main-header {
+    background: url('../img/fondo.webp') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 2em 0;
+  }
+  
+  .products {
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+  }
+  
+  .product {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 1em;
+    text-align: center;
+    width: 30%;
+  }
+  
+  .product img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .main-footer {
+    background: #2cbdd6;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+  }
+  
